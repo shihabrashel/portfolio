@@ -1,0 +1,15 @@
+export const skills = [
+  "C#",
+  ".NET",
+  "ASP.NET Core",
+  "REST APIs",
+  "SQL Server",
+  "React",
+  "Angular",
+  "TypeScript",
+  "Microservices",
+  "Clean Architecture",
+  "Vertical Slice Architecture",
+  "Git",
+  "AI-Assisted Development",
+];
