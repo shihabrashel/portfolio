@@ -2,39 +2,39 @@ import type { ArchitectureItem } from "../types";
 
 export const architectureItems: ArchitectureItem[] = [
   {
-    title: "Clean Architecture",
+    title: "Clean & Onion Architecture",
     description:
-      "Designing applications with clear separation of responsibilities to improve maintainability, testability, and long-term scalability.",
+      "Applied layered architecture approaches to keep business logic separated from infrastructure and presentation concerns, improving maintainability and testability.",
     concepts: [
       "Separation of Concerns",
       "Dependency Inversion",
-      "Domain-driven design principles",
+      "Maintainable Code Structure",
     ],
   },
   {
-    title: "Microservices",
+    title: "Microservices & API Design",
     description:
-      "Designing independently deployable services with clear boundaries and communication through APIs and asynchronous messaging.",
+      "Worked with service-oriented application design and REST APIs, focusing on clear service responsibilities, integration, and maintainable backend systems.",
     concepts: [
+      "REST APIs",
       "Service Boundaries",
-      "Database per Service",
       "Inter-service Communication",
     ],
   },
   {
-    title: "Vertical Slice Architecture",
+    title: "Database Architecture",
     description:
-      "Organizing application code around business features instead of technical layers, keeping related functionality together.",
+      "Designed and worked with Microsoft SQL Server solutions for enterprise applications, including partitioned database design for large-scale operational systems.",
     concepts: [
-      "Feature-based Organization",
-      "CQRS Concepts",
-      "Reduced Coupling",
+      "SQL Server",
+      "Database Partitioning",
+      "Performance Optimization",
     ],
   },
   {
-    title: "Database & API Design",
+    title: "Full-Stack Application Design",
     description:
-      "Building reliable APIs and SQL Server solutions with attention to performance, scalability, and maintainability.",
-    concepts: ["REST APIs", "SQL Optimization", "Database Design"],
+      "Built business applications across backend, database, and frontend layers using .NET, SQL Server, Angular, React, and related web technologies.",
+    concepts: [".NET Backend", "Angular & React", "End-to-End Development"],
   },
 ];

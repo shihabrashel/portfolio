@@ -1,4 +1,4 @@
-import profilePhoto from "../../assets/Shihab Uddin Original.jpg";
+import profilePhoto from "../../assets/shihab-uddin.webp";
 
 function Hero() {
   return (
@@ -10,13 +10,14 @@ function Hero() {
           <h1>
             Building scalable software
             <br />
-            that solves real problems.
+            for real business problems.
           </h1>
 
           <p className="hero-description">
-            I'm Shihab Uddin, a software engineer with around 10 years of
-            experience building applications across FinTech, EduTech, and
-            Medical Tech.
+            I'm Shihab Uddin, a software engineer with 10+ years of experience
+            building enterprise applications across FinTech, EduTech, and
+            Medical Tech, with strong expertise in C#, .NET, SQL Server,
+            Angular, APIs, and modern frontend development with React.
           </p>
 
           <div className="hero-actions">
@@ -32,7 +33,14 @@ function Hero() {
 
         <div className="hero-visual">
           <div className="hero-photo-wrapper">
-            <img src={profilePhoto} alt="Shihab Uddin" className="hero-photo" />
+            <img
+              src={profilePhoto}
+              alt="Shihab Uddin"
+              className="hero-photo"
+              width="260"
+              height="260"
+              decoding="async"
+            />
           </div>
 
           <div className="hero-highlight">
@@ -42,13 +50,23 @@ function Hero() {
             </div>
 
             <div className="hero-card">
-              <span>.NET</span>
-              <p>Backend Expertise</p>
+              <span>C#</span>
+              <p>Core Programming Language</p>
             </div>
 
             <div className="hero-card">
-              <span>React</span>
-              <p>Modern Frontend</p>
+              <span>.NET</span>
+              <p>Backend Development</p>
+            </div>
+
+            <div className="hero-card">
+              <span>SQL Server</span>
+              <p>Database Development</p>
+            </div>
+
+            <div className="hero-card">
+              <span>Angular & React</span>
+              <p>Frontend Development</p>
             </div>
           </div>
         </div>

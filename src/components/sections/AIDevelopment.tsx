@@ -7,12 +7,13 @@ function AIDevelopment() {
         <div className="section-heading">
           <p className="section-eyebrow">AI-Assisted Development</p>
 
-          <h2>Using AI to build software more effectively</h2>
+          <h2>AI as part of my development workflow</h2>
 
           <p>
-            I use AI tools as part of my development workflow to accelerate
-            implementation, improve code quality, learn new technologies, and
-            explore better engineering solutions.
+            I use AI tools to support software development tasks such as
+            debugging, code analysis, refactoring, technical research, and
+            learning, while keeping engineering decisions, code quality, and
+            maintainability at the center.
           </p>
         </div>
 

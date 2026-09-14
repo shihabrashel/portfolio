@@ -11,7 +11,7 @@ function Header() {
     <header className="site-header">
       <nav className="navbar">
         <a href="#hero" className="logo" onClick={closeMenu}>
-          Shihab<span>.</span>
+          Shihab Uddin<span>.</span>
         </a>
 
         <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
@@ -36,7 +36,7 @@ function Header() {
           </a>
 
           <a href="#ai-development" onClick={closeMenu}>
-            AI Development
+            AI
           </a>
 
           <a href="#contact" onClick={closeMenu}>

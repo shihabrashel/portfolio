@@ -5,26 +5,33 @@ function About() {
         <div className="section-heading">
           <p className="section-eyebrow">About Me</p>
 
-          <h2>Turning ideas into reliable software.</h2>
+          <h2>Turning business requirements into reliable software.</h2>
         </div>
 
         <div className="about-body">
           <p>
-            I'm a Senior Software Engineer with around 10 years of experience
-            building business applications and scalable software solutions.
+            I'm a Senior Software Engineer with 10+ years of experience building
+            enterprise applications and business-critical software solutions.
           </p>
 
           <p>
-            My primary expertise is in C#, .NET, SQL Server, Angular, and React.
-            I've worked across FinTech, EduTech, and Medical Tech, developing
-            APIs, business platforms, database solutions, and modern web
-            applications.
+            My core expertise is in C#, .NET, ASP.NET Web API, Microsoft SQL
+            Server, and Angular. I also work with React and modern frontend
+            technologies to build full-stack web applications.
           </p>
 
           <p>
-            I'm particularly interested in software architecture, clean code,
-            system design, microservices, and using AI tools to improve the
-            software development process.
+            Throughout my career, I've worked across FinTech, EduTech, Medical
+            Tech, and other business domains, contributing to backend services,
+            REST APIs, database design, frontend applications, and full-stack
+            feature development.
+          </p>
+
+          <p>
+            I'm also focused on software architecture, Clean Architecture, Onion
+            Architecture, microservices, system design, and using AI-assisted
+            development tools to improve software development productivity and
+            quality.
           </p>
 
           <div className="about-stats">
@@ -34,13 +41,13 @@ function About() {
             </div>
 
             <div>
-              <strong>3</strong>
-              <span>Industry Domains</span>
+              <strong>Full-Stack</strong>
+              <span>.NET • MS SQL • Angular • React</span>
             </div>
 
             <div>
-              <strong>Full-Stack</strong>
-              <span>Development</span>
+              <strong>3,000+</strong>
+              <span>Branch-Scale Experience</span>
             </div>
           </div>
         </div>

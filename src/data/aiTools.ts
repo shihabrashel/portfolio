@@ -2,35 +2,35 @@ import type { AITool } from "../types";
 
 export const aiTools: AITool[] = [
   {
-    name: "Claude",
+    name: "ChatGPT",
     description:
-      "Used as an AI coding assistant for understanding existing code, implementing features, refactoring, and exploring technical solutions.",
+      "Used for technical research, architecture discussions, learning new technologies, interview preparation, and exploring different implementation approaches.",
     useCases: [
-      "Code implementation",
-      "Refactoring",
-      "Code analysis",
-      "Technical problem solving",
+      "Technical Research",
+      "Architecture Discussions",
+      "Learning",
+      "Implementation Guidance",
     ],
   },
   {
-    name: "ChatGPT",
+    name: "Claude",
     description:
-      "Used for learning, debugging, architecture discussions, interview preparation, and exploring different implementation approaches.",
+      "Used as an AI-assisted development tool for code completion, code generation, implementation support, refactoring, and working with existing codebases.",
     useCases: [
-      "Learning",
-      "Architecture discussions",
-      "Debugging",
-      "Technical research",
+      "Code Completion",
+      "Code Generation",
+      "Feature Implementation",
+      "Refactoring",
     ],
   },
   {
     name: "GitHub Copilot",
     description:
-      "Used for accelerating day-to-day coding by generating code suggestions and reducing repetitive development work.",
+      "Used for AI-assisted coding through inline code suggestions, code completion, and reducing repetitive development work.",
     useCases: [
-      "Code completion",
-      "Boilerplate generation",
-      "Developer productivity",
+      "Code Completion",
+      "Inline Suggestions",
+      "Development Productivity",
     ],
   },
 ];

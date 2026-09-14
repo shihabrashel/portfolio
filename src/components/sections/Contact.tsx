@@ -5,12 +5,12 @@ function Contact() {
         <div className="section-heading">
           <p className="section-eyebrow">Get In Touch</p>
 
-          <h2>Let's build something great together.</h2>
+          <h2>Let's work together.</h2>
 
           <p>
-            I'm open to software development opportunities, interesting
-            projects, and conversations about building reliable and scalable
-            software.
+            I'm open to software engineering opportunities where I can
+            contribute my experience in .NET, SQL Server, Angular, React, APIs,
+            and full-stack application development.
           </p>
         </div>
 
@@ -24,12 +24,12 @@ function Contact() {
             Download CV
           </a>
 
-          <a href="mailto:your-email@example.com" className="secondary-button">
+          <a href="mailto:surashel891@gmail.com" className="secondary-button">
             Email Me
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/shihabrashel"
             target="_blank"
             rel="noreferrer"
             className="secondary-button"
@@ -38,12 +38,21 @@ function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/shihab-uddin-a70b55350/"
             target="_blank"
             rel="noreferrer"
             className="secondary-button"
           >
             LinkedIn
+          </a>
+
+          <a
+            href="https://wa.me/8801750854647"
+            target="_blank"
+            rel="noreferrer"
+            className="secondary-button"
+          >
+            WhatsApp
           </a>
         </div>
       </div>

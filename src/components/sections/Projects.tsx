@@ -7,20 +7,29 @@ function Projects() {
         <div className="section-heading">
           <p className="section-eyebrow">Featured Projects</p>
 
-          <h2>Things I've built</h2>
+          <h2>Selected work from my experience</h2>
 
           <p>
-            A selection of platforms and engineering work across FinTech,
-            EduTech, and Medical Tech.
+            A selection of enterprise and production applications I've worked on
+            across FinTech, EduTech, Medical Tech, LegalTech, and News & Media.
           </p>
         </div>
 
         <div className="project-grid">
           {projects.map((project, index) => (
-            <article className="project-card" key={project.title}>
-              <div className="project-number">0{index + 1}</div>
+            <article
+              key={project.title}
+              className={`project-card ${
+                index === 0 ? "project-card-featured" : ""
+              }`}
+            >
+              <div className="project-card-top">
+                <span className="project-number">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
 
-              <p className="project-category">{project.category}</p>
+                <span className="project-category">{project.category}</span>
+              </div>
 
               <h3>{project.title}</h3>
 
@@ -34,16 +43,20 @@ function Projects() {
                 ))}
               </div>
 
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  View Project →
-                </a>
-              )}
+              <div className="project-footer">
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-link"
+                  >
+                    Visit Live Site ↗
+                  </a>
+                ) : (
+                  <span className="project-internal">Internal Project</span>
+                )}
+              </div>
             </article>
           ))}
         </div>

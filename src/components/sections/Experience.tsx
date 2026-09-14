@@ -10,9 +10,9 @@ function Experience() {
           <h2>My professional journey</h2>
 
           <p>
-            Building and maintaining business applications across multiple
-            domains, with a focus on backend engineering, databases, APIs, and
-            modern frontend development.
+            Over 10 years of experience building and maintaining business
+            applications across FinTech, EduTech, Medical Tech, and other
+            software solutions.
           </p>
         </div>
 
@@ -29,7 +29,20 @@ function Experience() {
               <div className="experience-content">
                 <h3>{experience.role}</h3>
 
-                <h4>{experience.company}</h4>
+                <h4>
+                  {experience.companyUrl ? (
+                    <a
+                      href={experience.companyUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="company-link"
+                    >
+                      {experience.company}
+                    </a>
+                  ) : (
+                    experience.company
+                  )}
+                </h4>
 
                 <p>{experience.description}</p>
 
