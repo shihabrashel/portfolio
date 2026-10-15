@@ -4,6 +4,7 @@ import About from "./components/sections/About";
 import AIDevelopment from "./components/sections/AIDevelopment";
 import Architecture from "./components/sections/Architecture";
 import Contact from "./components/sections/Contact";
+import Education from "./components/sections/Education";
 import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
@@ -21,6 +22,7 @@ function App() {
         <Projects />
         <Architecture />
         <AIDevelopment />
+        <Education />
         <Contact />
       </main>
       <Footer />

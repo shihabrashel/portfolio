@@ -39,6 +39,10 @@ function Header() {
             AI
           </a>
 
+          <a href="#education" onClick={closeMenu}>
+            Education
+          </a>
+
           <a href="#contact" onClick={closeMenu}>
             Contact
           </a>
