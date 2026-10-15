@@ -5,7 +5,7 @@ export const experiences: Experience[] = [
     company: "Best Brains Inc.",
     companyUrl: "https://bestbrains.com/",
     role: "Sr. Software Engineer",
-    period: "Jan 2026 - Sep 2026",
+    period: "Jan 2026 - Oct 2026",
     description:
       "Contributed to the development and modernization of an EduTech platform, building REST APIs, complex business workflows, role-based features, order management functionality, and responsive frontend components while working across backend, database, and React applications.",
     technologies: ["C#", ".NET 10", "Microsoft SQL Server", "React"],
